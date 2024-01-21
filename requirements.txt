@@ -38,7 +38,7 @@ idna==3.4
 importlib-resources==6.0.1
 joblib==1.3.2
 keras==2.13.1
-langchain==0.0.261
+langchain==0.0.329
 langsmith==0.0.21
 libclang==16.0.6
 lxml==4.9.3
