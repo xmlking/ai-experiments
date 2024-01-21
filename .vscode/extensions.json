@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "kevinrose.vsc-python-indent",
+    "ms-azuretools.vscode-docker",
+    "xaver.clang-format",
+    "EditorConfig.EditorConfig",
+    "tamasfe.even-better-toml"
+  ]
+}
