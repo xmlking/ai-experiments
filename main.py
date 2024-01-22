@@ -1,4 +1,5 @@
 from langchain.document_loaders import OnlinePDFLoader
+from langchain.document_loaders import PyPDFLoader
 # from langchain.document_loaders import DirectoryLoader
 from langchain.vectorstores import Chroma
 from langchain.embeddings import GPT4AllEmbeddings
@@ -23,7 +24,8 @@ class SuppressStdout:
         sys.stderr = self._original_stderr
 
 # load the pdf and split it into chunks
-loader = OnlinePDFLoader("https://d18rn0p25nwr6d.cloudfront.net/CIK-0001813756/975b3e9b-268e-4798-a9e4-2a9a7c92dc10.pdf")
+# loader = OnlinePDFLoader("https://d18rn0p25nwr6d.cloudfront.net/CIK-0001813756/975b3e9b-268e-4798-a9e4-2a9a7c92dc10.pdf")
+loader = PyPDFLoader("./975b3e9b-268e-4798-a9e4-2a9a7c92dc10.pdf")
 data = loader.load()
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
