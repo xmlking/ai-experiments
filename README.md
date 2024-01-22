@@ -7,13 +7,10 @@ A ready to use 100% local setup
 ## Setup
 
 ```shell
-pip install -r requirements.txt
+# pip install -r requirements.txt
 # pipenv install -r requirements.txt
 # Install from Pipfile
 pipenv install
-pipenv install tensorflow==2.15.0
-pipenv install --verbose https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-2.6.0-cp38-cp38-macosx_10_11_x86_64.whl
-pipenv install --verbose https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-2.15.0-cp311-cp311-macosx_10_15_x86_64.whl
 ```
 
 ## Run
