@@ -9,6 +9,8 @@ A ready to use 100% local setup
 ```shell
 # pip install -r requirements.txt
 # pipenv install -r requirements.txt
+# setup virtualenv
+pipenv shell
 # Install from Pipfile
 pipenv install
 ```
